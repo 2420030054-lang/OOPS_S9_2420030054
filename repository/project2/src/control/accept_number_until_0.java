@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class accept_number_until_0 {
 
 	public static void main(String[] args) {
-		java.util.Scanner sc=new Scanner(System.in);
+		
+		Scanner sc=new Scanner(System.in);
 System.out.print("enter number");
 int n=sc.nextInt();
 	for(int i=0;i<n;i++) {
